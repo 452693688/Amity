@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="activity.ui.com.test"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="test.ui.actvivty.TestMainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="test.ui.actvivty.TestActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="test.ui.actvivty.TestListActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="test.ui.actvivty.TestExpListActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="test.ui.actvivty.TestWebActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="test.ui.actvivty.TestCopyActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>
