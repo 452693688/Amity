@@ -1,13 +1,14 @@
-AnimatedVectorDrawable
+描述
 ----------------------
 
-Sample code for [AnimatedVectorDrawable][1] for Android.
+一：自定义tab
+[](https://github.com/452693688/Amity/blob/master/image/tab.png)
+二：拖动listview的item进行排序
+[](https://github.com/452693688/Amity/blob/master/image/move.png)
+三：ExpansionList的下拉刷新
+[](https://github.com/452693688/Amity/blob/master/image/renovation.png)
+四：webWiew的图片点击事件（添加js函数进行监听）
+[](https://github.com/452693688/Amity/blob/master/image/web.png)
+五：复制富文本
+[](https://raw.githubusercontent.com/452693688/Amity/master/image/copy.png)
 
-  * Example from [official documentation][1]
-  * Clock implemented by two rotations
-  * Smiling face implemented by path morph
-
-See [my blog post][2] for more details.
-
-  [1]: http://developer.android.com/reference/android/graphics/drawable/AnimatedVectorDrawable.html
-  [2]: http://blog.sqisland.com/2014/10/first-look-at-animated-vector-drawable.html
